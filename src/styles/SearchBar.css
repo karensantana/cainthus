@@ -1,0 +1,16 @@
+.search-container {
+  margin-top: 80px;
+}
+.ui.red.button {
+  background-color: #ec0b43;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+.ui.red.button:active,
+.ui.red.button:hover {
+  background-color: #bb0935;
+}
+.ui.input {
+  display: -webkit-inline-box;
+}
