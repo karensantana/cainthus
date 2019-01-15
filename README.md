@@ -24,4 +24,10 @@ GIT SERVICE
 https://github.com/: 
 
 HOW TO RUN THE PROJECT:
-The project is up and running at: 
+
+The project is up and running at the following URL: 
+bUT
+1.Clone the repository
+2.Install npm. 
+3.Run npm install from the project directory.
+4.Run npm start.  
