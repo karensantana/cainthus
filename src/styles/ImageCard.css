@@ -1,0 +1,10 @@
+.image-list .image-card {
+  width: 250px;
+  grid-row-end: span 2;
+}
+.ui.cainthus.label,
+.ui.cainthus.labels .label {
+  background-color: #ec0b43;
+  border-color: #ec0b43;
+  color: #fff!important;
+}

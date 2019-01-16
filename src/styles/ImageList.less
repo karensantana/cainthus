@@ -4,8 +4,13 @@
     grid-gap: 0 10px;
     grid-auto-rows: 10px;
 }
+.ui {
+    .card {
+        word-break: break-all;
+    }
+}
 
-.image-list .image-card {
-    width: 250px;
-    grid-row-end: span 2;
+body ::-webkit-scrollbar {       //Make Image list scrollable but hidding scrollbar
+    width: 0px;
+    background: transparent;
 }

@@ -9,13 +9,15 @@ class SearchBar extends React.Component{
   
   onFormSubmit = event => {
     event.preventDefault();
-    this.props.onFormSubmit(this.state.term);
+    if(this.state.term){
+        this.props.onFormSubmit(this.state.term);
+    }
   }
     render(){
         return (
             <div className="ui basic center aligned segment">
                 <div className="ui container search-container">
-                    <form onSubmit={this.onFormSubmit} className="ui form">
+                    <form  className="ui form">
                         <div className="ui action input"> 
                             <input 
                             type="text"
@@ -24,7 +26,7 @@ class SearchBar extends React.Component{
                             this.setState({term: e.target.value})
                             }
                         />
-                            <button className="ui red right labeled icon button">
+                            <button onClick={this.onFormSubmit} className="ui red right labeled icon button">
                                 <i className="search icon"></i>
                                     Search Images
                             </button>
