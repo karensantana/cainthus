@@ -1,4 +1,4 @@
-THE APP IS RUNNING IN THE LINK BELLOW:
+THE APP IS RUNNING IN THE LINK BELOW:
 
 https://cainthus-c5f45.firebaseapp.com/
 
