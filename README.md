@@ -1,3 +1,7 @@
+THE APP IS RUNNING IN THE LINK BELLOW:
+
+https://cainthus-c5f45.firebaseapp.com/
+
 Criterias for choosing React over Angular and Vue.Js
 
 *Hight level of flexibility.
@@ -25,7 +29,7 @@ https://github.com/:
 
 HOW TO RUN THE PROJECT:
 
-The project is up and running at the following URL: 
+The project is up and running at the following URL: https://cainthus-c5f45.firebaseapp.com/
 But you can run it locally:
 
 1.Clone the repository
