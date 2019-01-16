@@ -26,7 +26,8 @@ https://github.com/:
 HOW TO RUN THE PROJECT:
 
 The project is up and running at the following URL: 
-bUT
+But you can run it locally:
+
 1.Clone the repository
 2.Install npm. 
 3.Run npm install from the project directory.
